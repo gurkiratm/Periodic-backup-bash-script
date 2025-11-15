@@ -4,6 +4,17 @@ A simple Bash backup helper that creates tarball and directory backups and synch
 
 **Intended host:** Linux systems with Bash and `rsync` installed (run as `root` or with sufficient privileges to read listed paths and write cron files).
 
+## Working Snapshots
+
+***Backup files at Remote server***
+
+<img width="367" height="315" alt="{CA41F5C1-3697-4B2B-8AD1-C237B0D28031}" src="https://github.com/user-attachments/assets/a1aa84b6-2e05-44ba-8b47-2fc3f1bc513a" />
+
+
+***Log File output***
+<img width="1106" height="524" alt="{4A2BA28C-250C-4A99-A923-154FBE77D4B0}" src="https://github.com/user-attachments/assets/20f956fc-ac70-4c12-a3aa-b1e56ba69343" />
+
+
 ---
 
 **Quick Summary:**
@@ -92,3 +103,5 @@ To avoid backup files accumulating on the remote host you can schedule a cleanup
 ```
 Notes:
 - Use `-mtime +N` to remove files older than N days.
+
+---
